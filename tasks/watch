@@ -1,0 +1,2 @@
+open "http://127.0.0.1:4000/Users/fwood/template/"
+bundle exec jekyll serve --baseurl ~fwood/template

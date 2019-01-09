@@ -1,0 +1,62 @@
+title: Dr. Frank Wood
+email: fwood@cs.ubc.ca
+description: >- # this means to ignore newlines until "baseurl:"
+   Research Homepage for Frank Wood
+baseurl: "~fwood/template" # the subpath of your site, e.g. /blog
+url: "https://www.cs.ubc.ca/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: frankdonaldwood
+github_username:  fwood
+
+markdown: kramdown
+ins_logo: "/ins-logo.png"
+
+kramdown:
+  input: GFM
+  default_lang: clojure
+  syntax_highlighter: rouge
+
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-scholar
+
+
+scholar:
+  #style: _bibliography/ieee.csl
+  style: apa
+  repository: assets/pdf
+  #bibliography_template: "{{reference}}"
+  bibliography_template: bibliography
+
+# this is where you put your Google analytics tracking ID should you
+# wish to use Google analytics (a good idea -- it's free)
+tracking_id: #
+
+footer: yes
+footer_url: "https://www.cs.ubc.ca/"
+footer_text: "UBC Computer Science - &copy; 2019"
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+nav:
+ - name: Home
+   link: "/"
+# - name: Code
+#   link: "/code/"
+ - name: People
+   link: "/people/"
+ - name: Teaching
+   link: "/teaching/"
+# - name: Talks
+#   link: "/talks/"
+ - name: Papers
+   link: "/papers/"
+ - name: "Bio"
+   link: "/bio/"
+ - name: "CV"
+   link: "/cv.pdf"
+# - name: "Contact"
+#   link: "/contact"
