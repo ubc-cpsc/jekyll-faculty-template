@@ -70,11 +70,11 @@ Yes, you have to install some stuff.
 
 Follow the installation instructions at
  - [ruby](https://www.ruby-lang.org/en/downloads/) (if necessary; many systems ship with Ruby installed)
- - [jeykll](https://jekyllrb.com/)
+ - [jeykll](https://jekyllrb.com/docs/) (steps one and two only)
  - [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar)
 
 ## Getting up and running
- 1) Git clone the [website template repository](https://bitbucket.org/UBCCS/jekyll-faculty)
+ 1) Git fork the [website template repository](https://bitbucket.org/UBCCS/jekyll-faculty)
 
  2) Edit the following files
    - ```_config.yml```

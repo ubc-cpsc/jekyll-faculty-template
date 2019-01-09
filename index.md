@@ -4,7 +4,7 @@ layout: default
 
 ## Quickstart Guide
 
-Click [here](README-ubc-faculty-webpage-template) for instructions on how to use
+Click [here](README-ubc-faculty-webpage-template.html) for instructions on how to use
 and customize this UBC CS faculty and course static website generator yourself.
 
 Browse the remainder of this demonstration website to gain a sense of what can
