@@ -68,20 +68,23 @@ anyway), and latex math.  These are now industry standard tools, for instance
 
 Yes, you have to install some stuff.  
 
-Follow the installation instructions at
- - [ruby](https://www.ruby-lang.org/en/downloads/) (if necessary; many systems ship with Ruby installed)
- - [jeykll](https://jekyllrb.com/docs/) (steps one and two only)
- - [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar)
+Complete the following installation steps:
+ - Install [ruby](https://www.ruby-lang.org/en/downloads/) (if necessary; many systems ship with Ruby installed)
+ - Install [jeykll](https://jekyllrb.com/docs/) (steps one and two only)
+ - Git fork the [website template repository](https://bitbucket.org/UBCCS/jekyll-faculty)
+ - ```cd``` into the downloaded repository and run ```bundle install``` to install [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar)
 
 ## Getting up and running
- 1) Git fork the [website template repository](https://bitbucket.org/UBCCS/jekyll-faculty)
 
- 2) Edit the following files
-   - ```_config.yml```
-   - ```tasks\watch```
-   - ```tasks\deploy```
-   - and any of the remaining markdown files that you want to change, i.e
-      - ```index.md```, etc.
+Edit the following files
+  - ```_config.yml```
+  - ```tasks\watch```
+  - ```tasks\deploy```
+  - and any of the remaining markdown files that you want to change, i.e
+    - ```index.md```, etc.
+
+The type ```tasks\watch``` and edit files locally, refreshing your web browser
+as required. 
 
 -----------
 
