@@ -2,10 +2,35 @@ title: Dr. Frank Wood
 email: fwood@cs.ubc.ca
 description: >- # this means to ignore newlines until "baseurl:"
    Research Homepage for Frank Wood
-baseurl: "~fwood/template" # the subpath of your site, e.g. /blog
+baseurl: "~fwood/template" # the subpath to your homepage, typically ~username
 url: "https://www.cs.ubc.ca/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: frankdonaldwood
 github_username:  fwood
+
+nav:
+ - name: Home
+   link: "/"
+# - name: Code
+#   link: "/code/"
+ - name: People
+   link: "/people.html"
+ - name: Teaching
+   link: "/teaching.html"
+# - name: Talks
+#   link: "/talks/"
+ - name: Papers
+   link: "/papers/"
+ - name: "Bio"
+   link: "/bio.html"
+ - name: "CV"
+   link: "/cv.pdf"
+# - name: "Contact"
+#   link: "/contact"
+
+
+## don't edit below here unless you want to customize beyond
+## changing the menus
+
 
 markdown: kramdown
 ins_logo: "/ins-logo.png"
@@ -40,23 +65,3 @@ footer_text: "UBC Computer Science - &copy; 2019"
 sass:
     style: compressed
     sass_dir: _sass
-
-nav:
- - name: Home
-   link: "/"
-# - name: Code
-#   link: "/code/"
- - name: People
-   link: "/people/"
- - name: Teaching
-   link: "/teaching/"
-# - name: Talks
-#   link: "/talks/"
- - name: Papers
-   link: "/papers/"
- - name: "Bio"
-   link: "/bio/"
- - name: "CV"
-   link: "/cv.pdf"
-# - name: "Contact"
-#   link: "/contact"

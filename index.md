@@ -4,17 +4,13 @@ layout: default
 
 ## Quickstart Guide
 
-In order to use and customize this website generator, the following links
-should prove useful:
+Click [here](README-ubc-faculty-webpage-template) for instructions on how to use
+and customize this UBC CS faculty and course static website generator yourself.
 
- - [README](README) How to install, deploy, etc.
- - [CHEATSHEET](cheatsheet) How to quickly generate content.
+Browse the remainder of this demonstration website to gain a sense of what can
+be easily and efficiently generated and maintained.
 
-The easiest way to get started, _by far_, is to simply clone the repository,
-ablate the parts you don't want, and edit the rest to your liking.  Ultimately
-there is a large amount of customization that you could contemplate.  How
-far you go is up to you!
-
+---------------
 ## About Me
 
 <img class="profile-picture" src="headshot.jpg">

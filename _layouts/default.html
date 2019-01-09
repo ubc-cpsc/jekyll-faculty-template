@@ -49,20 +49,20 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
 
     <!-- Bootstrap core CSS -->
-    <link href="{{ site.baseurl }}/css/bootstrap.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{'/css/bootstrap.css' | relative_url}}" rel="stylesheet">
+    <link href="{{'/css/bootstrap.min.css' | relative_url}}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <!--<link href="{{ site.baseurl }}/css/fwood.css" rel="stylesheet">-->
     <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="{{site.baseurl}}/js/bootstrap.min.js"></script>
+    <script src="{{'/js/bootstrap.min.js' | relative_url}}"></script>
 
     <link rel="stylesheet" type="text/css" href="{{ '/css/github.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+    <link rel="stylesheet" href="{{ '/css/main.css' | relative_url}}">
 
     {% if site.favicon %}
-        <link rel="icon" type="image/ico" href="{{ site.favicon_location }}">
-        <link rel="shortcut-icon" type="image/ico" href="{{ site.favicon_location }}">
+        <link rel="icon" type="image/ico" href="{{ site.favicon_location | relative_url }}">
+        <link rel="shortcut-icon" type="image/ico" href="{{ site.favicon_location |relative_url}}">
     {% endif %}
     {% if site.twitter_username %}
         <link rel="author" href="https://twitter.com/{{ site.twitter_username }}">
@@ -93,15 +93,15 @@
     <div class="wrapper">
         <div class="navbar container">
             {% if site.ins_logo %}
-                <img id="ins-logo" src="{{ site.baseurl }}{{ site.ins_logo }}" />
+                <img id="ins-logo" src="{{ site.ins_logo | relative_url}}" />
             {% endif %}
             <a id="author-name" class="alignable pull-left" href="{{ site.baseurl }}">{{ site.title }}</a>
             <ul id="navlist" class="alignable pull-right navbar-ul">
                 {% for x in site.nav %}
                     {% if x.name == "CV" %}
-                        <li class="alignable pull-left nav-list"><a target="_blank" href="{{ site.baseurl }}{{ x.link }}">{{ x.name }}</a>
+                        <li class="alignable pull-left nav-list"><a target="_blank" href="{{ x.link | relative_url }}">{{ x.name }}</a>
                     {% else %}
-                        <li class="alignable pull-left nav-list"><a href="{{ site.baseurl }}{{ x.link }}">{{ x.name }}</a>
+                        <li class="alignable pull-left nav-list"><a href="{{ x.link | relative_url}}">{{ x.name }}</a>
                     {% endif %}
                     {% if forloop.last == false %}
                         /
