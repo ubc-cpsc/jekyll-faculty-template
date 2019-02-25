@@ -3,7 +3,7 @@ layout: page
 ---
 # Welcome
 
-This is the UBC faculty webpage template README.  
+This is the UBC faculty webpage template README.
 
 To generate your own website like the [demonstration website](https://www.cs.ubc.ca/~fwood/template) you will, of course, need to install
 some stuff locally, be able to edit text files, and, to be able to deploy your
@@ -21,7 +21,7 @@ far you go is up to you!  You can be up and running in _less than 10 minutes_.
 
 What we faculty really care about is being able to _quickly_ generate content and
 post it online.  Experienced faculty understand that keeping the maintenance costs
-of these kinds of systems low is also of paramount importance.  
+of these kinds of systems low is also of paramount importance.
 
 Using this distributed, anarchic system makes both true.
 
@@ -35,7 +35,7 @@ not demonstrated in this template.
 ## Previewing and Deploying your website
 
 This template comes with two handy shell scripts that allow you to preview
-and deploy your website:  
+and deploy your website:
 
 ```./tools/watch``` is a Mac Unix script that launches a local webserver
 and opens it in your browser.  It watches your changes and allows you to
@@ -66,7 +66,7 @@ anyway), and latex math.  These are now industry standard tools, for instance
 
 ## Local installation
 
-Yes, you have to install some stuff.  
+Yes, you have to install some stuff.
 
 Complete the following installation steps:
  - Install [ruby](https://www.ruby-lang.org/en/downloads/) (if necessary; many systems ship with Ruby installed)
@@ -78,13 +78,13 @@ Complete the following installation steps:
 
 Edit the following files
   - ```_config.yml```
-  - ```tasks\watch```
-  - ```tasks\deploy```
+  - ```tasks/watch```
+  - ```tasks/deploy```
   - and any of the remaining markdown files that you want to change, i.e
     - ```index.md```, etc.
 
-The type ```tasks\watch``` and edit files locally, refreshing your web browser
-as required. 
+The type ```tasks/watch``` and edit files locally, refreshing your web browser
+as required.
 
 -----------
 
