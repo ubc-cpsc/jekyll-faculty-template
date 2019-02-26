@@ -1,7 +1,7 @@
 ---
 title: Teaching
 layout: default
-permalink: teaching
+permalink: /teaching/
 ---
 
 ### UBC Computer Science
