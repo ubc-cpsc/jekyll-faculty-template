@@ -13,15 +13,15 @@ nav:
 # - name: Code
 #   link: "/code/"
  - name: People
-   link: "/people.html"
+   link: "/people"
  - name: Teaching
-   link: "/teaching.html"
+   link: "/teaching"
 # - name: Talks
 #   link: "/talks/"
  - name: Papers
-   link: "/papers/"
+   link: "/papers"
  - name: "Bio"
-   link: "/bio.html"
+   link: "/bio"
  - name: "CV"
    link: "/cv.pdf"
 # - name: "Contact"
@@ -33,7 +33,6 @@ nav:
 
 
 markdown: kramdown
-ins_logo: "/ins-logo.png"
 
 kramdown:
   input: GFM
