@@ -2,7 +2,7 @@ title: Dr. Frank Wood
 email: fwood@cs.ubc.ca
 description: >- # this means to ignore newlines until "baseurl:"
    Research Homepage for Frank Wood
-baseurl: "~fwood/template" # the subpath to your homepage, typically ~username
+baseurl: "~fwood" # the subpath to your homepage, typically ~username
 url: "https://www.cs.ubc.ca/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: frankdonaldwood
 github_username:  fwood
@@ -31,7 +31,6 @@ nav:
 ## don't edit below here unless you want to customize beyond
 ## changing the menus
 
-
 markdown: kramdown
 
 kramdown:
@@ -45,7 +44,6 @@ plugins:
   - jekyll-feed
   - jekyll-scholar
 
-
 scholar:
   #style: _bibliography/ieee.csl
   style: apa
@@ -57,10 +55,6 @@ scholar:
 # wish to use Google analytics (a good idea -- it's free)
 tracking_id: #
 
-footer: yes
-footer_url: "https://www.cs.ubc.ca/"
-footer_text: "UBC Computer Science - &copy; 2019"
-
 sass:
-    style: compressed
-    sass_dir: _sass
+  style: compressed
+  sass_dir: _sass
