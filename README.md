@@ -110,7 +110,7 @@ Also changing ```_config.yml``` to include
     syntax_highlighter: rouge
 
   #DEFAULT theme: minima
-  theme: clean-jekyll-theme
+  theme: jekyll-faculty-theme
   highlighter: rouge
 
   plugins:

@@ -11,15 +11,10 @@ source "https://rubygems.org"
 gem "jekyll", "~> 3.8.5"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-#DEFAULT: gem "minima", "~> 2.0"
-gem "clean-jekyll-theme"
+gem "jekyll-faculty-theme", :git => "git@bitbucket.org:UBCCS/jekyll-faculty-theme.git"
 gem "jekyll-scholar"
 
 gem "pygments.rb"
-
-
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.0"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.

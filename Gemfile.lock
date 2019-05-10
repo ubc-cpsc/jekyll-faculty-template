@@ -1,3 +1,13 @@
+GIT
+  remote: git@bitbucket.org:UBCCS/jekyll-faculty-theme.git
+  revision: dd845e6df8bcfe5fa44f869d222d9d320bb0bcc9
+  specs:
+    jekyll-faculty-theme (0.1.1)
+      jekyll (~> 3.8)
+      jekyll-feed (~> 0.9)
+      jekyll-scholar (~> 5.0)
+      jekyll-seo-tag (~> 2.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -10,9 +20,6 @@ GEM
     citeproc-ruby (1.1.10)
       citeproc (~> 1.0, >= 1.0.9)
       csl (~> 1.5)
-    clean-jekyll-theme (1.1.0)
-      jekyll (~> 3.8)
-      jekyll-seo-tag (~> 2.5)
     colorator (1.1.0)
     concurrent-ruby (1.1.5)
     csl (1.5.0)
@@ -62,10 +69,6 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
-    minima (2.5.0)
-      jekyll (~> 3.5)
-      jekyll-feed (~> 0.9)
-      jekyll-seo-tag (~> 2.1)
     multi_json (1.13.1)
     namae (1.0.1)
     pathutil (0.16.2)
@@ -89,11 +92,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  clean-jekyll-theme
   jekyll (~> 3.8.5)
+  jekyll-faculty-theme!
   jekyll-feed (~> 0.6)
   jekyll-scholar
-  minima (~> 2.0)
   pygments.rb
   tzinfo-data
 
