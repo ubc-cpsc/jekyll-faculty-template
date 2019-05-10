@@ -2,7 +2,6 @@
 title: Papers
 layout: default
 permalink: /papers/
-
 ---
 
 # Google Scholar
