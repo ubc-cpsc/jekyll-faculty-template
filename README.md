@@ -36,12 +36,12 @@ not demonstrated in this template.
 This template comes with two handy shell scripts that allow you to preview
 and deploy your website:
 
-```./tools/watch``` is a Mac Unix script that launches a local webserver
+```./tasks/watch``` is a Mac Unix script that launches a local webserver
 and opens it in your browser.  It watches your changes and allows you to
 preview your updates before uploading them to the departmental server.  _This
 file (```./tools/watch```) should be edited to reflect your setup._
 
-```./tools/deploy``` is a Unix script that uses ```rsync``` to copy the
+```./tasks/deploy``` is a Unix script that uses ```rsync``` to copy the
 statically generated website to departmental servers.  _This
 file (```./tools/deploy```) too should be edited to reflect your setup._
 
@@ -71,7 +71,7 @@ Complete the following installation steps:
  - Install [ruby](https://www.ruby-lang.org/en/downloads/) (if necessary; many systems ship with Ruby installed)
  - Install [jeykll](https://jekyllrb.com/docs/) (steps one and two only)
  - Git fork the [website template repository](https://bitbucket.org/UBCCS/jekyll-faculty)
- - ```cd``` into the downloaded repository and run ```bundle install``` to install [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar)
+ - ```cd``` into the downloaded repository and run ```bundle install``` to install [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar).  This will also install the UBC CS jekyll template.
 
 ## Getting up and running
 
