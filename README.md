@@ -50,11 +50,11 @@ and deploy your website:
 ```./tasks/watch``` is a Mac Unix script that launches a local webserver
 and opens it in your browser.  It watches your changes and allows you to
 preview your updates before uploading them to the departmental server.  _This
-file (```./tools/watch```) should be edited to reflect your setup._
+file (```./tasks/watch```) should be edited to reflect your setup._
 
 ```./tasks/deploy``` is a Unix script that uses ```rsync``` to copy the
 statically generated website to departmental servers.  _This
-file (```./tools/deploy```) too should be edited to reflect your setup._
+file (```./tasks/deploy```) too should be edited to reflect your setup._
 
 # Updating the style when and if the UBC look and feel changes
 
