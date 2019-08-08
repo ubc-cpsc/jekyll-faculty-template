@@ -1,6 +1,6 @@
 GIT
   remote: https://bitbucket.org/UBCCS/jekyll-faculty-theme.git
-  revision: c427aad879949ed09a4601b7bc5de658071db7ca
+  revision: 01e4ccebeeca2393ccadfaa11dd6c695ab223066
   specs:
     jekyll-faculty-theme (0.1.1)
       jekyll (~> 3.8)
