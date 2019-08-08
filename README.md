@@ -2,31 +2,33 @@ This is the UBC faculty webpage template bitbucket repository.
 
 # Getting Started
 
-This template produces websites like the [demonstration website](https://www.cs.ubc.ca/~fwood/template).
-Customizing this to your own website is easy.   You will, of course, need to install
-some stuff locally, be able to edit text files, and, to be able to deploy your
-website on departmental servers, have internet access.
+This template, when deployed, produces a static website like [this](https://www.cs.ubc.ca/~fwood/template).
+Customizing this to be your own website is _easy_ and _fast_.   You will, of course, need to install
+some stuff to your own machine and be able to edit text files. To be able to _deploy_ your
+website on departmental servers you will need internet access.
 
 Software installation hints and instructions appear below.
 
-The easiest way to get started, _by far_, is to fork this repo, clone your fork locally,,
-ablate the parts you don't want, and edit the rest to your liking.  Ultimately
-there is a large amount of customization that you could contemplate.  How
+The easiest way to get started, _by far_, is to fork this repo, clone your fork locally,
+ablate the parts of the design you don't want, add what you do, and edit the rest to your liking.  Ultimately
+there is a large amount of customization that you can do.  How
 far you go is up to you!  You can be up and running in _less than 10 minutes_.
 
 ------------------
 
 What we faculty really care about is being able to _quickly_ generate content and
 post it online.  Experienced faculty understand that keeping the maintenance costs
-of these kinds of systems low is also of paramount importance.  This template
+of these kinds of systems low is also of paramount importance.  
+Using this distributed, anarchic system makes both true.
+
+This template
 completely abstracts design from content.  You _can_ mess with ```.css``` should 
 you wish to.  You _can_ do custom javascript stuff.  You do not, however, need to, ever.  
-
-Using this distributed, anarchic system makes both true.
+The only thing you need to do is generate real content and to do so 
 
 # Generating Content
 
-This [cheatsheet](cheatsheet) ([src](https://bitbucket.org/UBCCS/jekyll-faculty/raw/b5b51539a7ca1cce300a0f6016d32ae5f4e26172/cheatsheet.md)) shows how to add
+This [cheatsheet](cheatsheet) ([src](https://bitbucket.org/UBCCS/jekyll-faculty/raw/a34bf8770ad674c2a8096b71e81ba523324ea218/cheatsheet.md)) shows how to add
 basically everything faculty want to a website: bibtex references, LaTeX math,
 highlighted code, etc.  The system supports blogging as well however this is
 not demonstrated in this template.
