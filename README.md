@@ -18,20 +18,20 @@ far you go is up to you!  You can be up and running in _less than 10 minutes_.
 
 What we faculty really care about is being able to _quickly_ generate content and
 post it online.  Experienced faculty understand that keeping the maintenance costs
-of these kinds of systems low is also of paramount importance.  
-Using this distributed, anarchic system makes both true.
+of these kinds of systems low is also of paramount importance.  Using this distributed, anarchic system makes both true.
 
 This template
 completely abstracts design from content.  You _can_ mess with ```.css``` should 
-you wish to.  You _can_ do custom javascript stuff.  You do not, however, need to, ever.  
-The only thing you need to do is generate real content and to do so 
+you wish to.  You _can_ do custom javascript stuff.  You do not, however, need to, ever.  The only thing you need to do is generate real content and to do so 
 
 # Generating Content
 
-This [cheatsheet](cheatsheet) ([src](https://bitbucket.org/UBCCS/jekyll-faculty/raw/a34bf8770ad674c2a8096b71e81ba523324ea218/cheatsheet.md)) shows how to add
+This [cheatsheet](https://bitbucket.org/UBCCS/jekyll-faculty/src/master/cheatsheet.md) ([src](https://bitbucket.org/UBCCS/jekyll-faculty/raw/a34bf8770ad674c2a8096b71e81ba523324ea218/cheatsheet.md)) shows how to add
 basically everything faculty want to a website: bibtex references, LaTeX math,
 highlighted code, etc.  The system supports blogging as well however this is
 not demonstrated in this template.
+
+# Turning the Template into Your Website 
 
 The files and directories you'll want to look at and edit are:
 
