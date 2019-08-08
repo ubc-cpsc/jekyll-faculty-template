@@ -87,7 +87,8 @@ Yes, you have to install some stuff.
 Complete the following installation steps:
  - Install [ruby](https://www.ruby-lang.org/en/downloads/) (if necessary; many systems ship with Ruby installed)
  - Install [jeykll](https://jekyllrb.com/docs/) (steps one and two only)
- - Git fork the [website template repository](https://bitbucket.org/UBCCS/jekyll-faculty)
+ - fork this repository 
+ - clone your fork locally
  - ```cd``` into the downloaded repository and run ```bundle install``` to install [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar).  This will also install the UBC CS jekyll template.
 
 ## Getting up and running
