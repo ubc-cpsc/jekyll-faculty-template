@@ -26,7 +26,7 @@ you wish to.  You _can_ do custom javascript stuff.  You do not, however, need t
 
 # Generating Content
 
-This [cheatsheet](https://bitbucket.org/UBCCS/jekyll-faculty/src/master/cheatsheet.md) ([src](https://bitbucket.org/UBCCS/jekyll-faculty/raw/a34bf8770ad674c2a8096b71e81ba523324ea218/cheatsheet.md)) shows how to add
+This [cheatsheet](https://www.cs.ubc.ca/~fwood/template/cheatsheet/) ([src](https://bitbucket.org/UBCCS/jekyll-faculty/raw/a34bf8770ad674c2a8096b71e81ba523324ea218/cheatsheet.md)) shows how to add
 basically everything faculty want to a website: bibtex references, LaTeX math,
 highlighted code, etc.  The system supports blogging as well however this is
 not demonstrated in this template.
