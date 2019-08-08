@@ -22,7 +22,7 @@ of these kinds of systems low is also of paramount importance.  Using this distr
 
 This template
 completely abstracts design from content.  You _can_ mess with ```.css``` should 
-you wish to.  You _can_ do custom javascript stuff.  You do not, however, need to, ever.  The only thing you need to do is generate real content and to do so 
+you wish to.  You _can_ do custom javascript stuff.  You do not, however, need to, ever.  The only thing you need to do is generate real content and doing so is _easy_.
 
 # Generating Content
 
