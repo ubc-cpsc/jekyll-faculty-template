@@ -2,15 +2,14 @@ This is the UBC faculty webpage template bitbucket repository.
 
 # Getting Started
 
-This is the UBC faculty webpage template README.
-
-To generate your own website like the [demonstration website](https://www.cs.ubc.ca/~fwood/template) you will, of course, need to install
+This template produces websites like the [demonstration website](https://www.cs.ubc.ca/~fwood/template).
+Customizing this to your own website is easy.   You will, of course, need to install
 some stuff locally, be able to edit text files, and, to be able to deploy your
 website on departmental servers, have internet access.
 
 Software installation hints and instructions appear below.
 
-The easiest way to get started, _by far_, is to simply fork the
+The easiest way to get started, _by far_, is to fork this
 [website template repository](https://bitbucket.org/UBCCS/jekyll-faculty),
 ablate the parts you don't want, and edit the rest to your liking.  Ultimately
 there is a large amount of customization that you could contemplate.  How
@@ -20,7 +19,9 @@ far you go is up to you!  You can be up and running in _less than 10 minutes_.
 
 What we faculty really care about is being able to _quickly_ generate content and
 post it online.  Experienced faculty understand that keeping the maintenance costs
-of these kinds of systems low is also of paramount importance.
+of these kinds of systems low is also of paramount importance.  This template
+completely abstracts design from content.  You _can_ mess with ```.css``` should 
+you wish to.  You _can_ do custom javascript stuff.  You do not, however, need to, ever.  
 
 Using this distributed, anarchic system makes both true.
 
@@ -30,6 +31,15 @@ This [cheatsheet](cheatsheet) ([src](https://bitbucket.org/UBCCS/jekyll-faculty/
 basically everything faculty want to a website: bibtex references, LaTeX math,
 highlighted code, etc.  The system supports blogging as well however this is
 not demonstrated in this template.
+
+The files and directories you'll want to look at and edit are:
+
+ - ```_config.yml``` to change the menu options, and to update site metadata
+ - ```headshot.jpg``` to change your picture
+ - all the ```.md``` files to change the information content
+ - all the ```.bib``` files in ```./bibilography``` to include your references
+ - all the ```.pdf``` files in ```./assets/pdf``` to include your paper pdfs (optional)
+
 
 ## Previewing and Deploying your website
 
@@ -44,6 +54,12 @@ file (```./tools/watch```) should be edited to reflect your setup._
 ```./tasks/deploy``` is a Unix script that uses ```rsync``` to copy the
 statically generated website to departmental servers.  _This
 file (```./tools/deploy```) too should be edited to reflect your setup._
+
+# Updating the style when and if the UBC look and feel changes
+
+Run the command ```bundle update jekyll-faculty-theme``` in your working 
+directory after UBC CS help administrators inform you that the theme 
+has been updated.
 
 ---------------
 
