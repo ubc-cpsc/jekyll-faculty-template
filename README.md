@@ -9,8 +9,7 @@ website on departmental servers, have internet access.
 
 Software installation hints and instructions appear below.
 
-The easiest way to get started, _by far_, is to fork this
-[website template repository](https://bitbucket.org/UBCCS/jekyll-faculty),
+The easiest way to get started, _by far_, is to fork this repo, clone your fork locally,,
 ablate the parts you don't want, and edit the rest to your liking.  Ultimately
 there is a large amount of customization that you could contemplate.  How
 far you go is up to you!  You can be up and running in _less than 10 minutes_.
