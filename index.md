@@ -4,11 +4,13 @@ layout: default
 
 ## Quickstart Guide
 
-Click [here](README-ubc-faculty-webpage-template.html) for instructions on how to use
-and customize this UBC CS faculty and course static website generator yourself.
+Click [here](https://bitbucket.org/UBCCS/jekyll-faculty/src/master/) to return to the 
+repository website that shows instructions on how to use
+and customize this UBC CS faculty and course static website generator yourself.  Browse
+the markdown (```.md``` file extension; start with ```index.md```) files in particular.
 
 Browse the remainder of this demonstration website to gain a sense of what can
-be easily and efficiently generated and maintained.
+be easily and efficiently generated and maintained (like $x^2 + 1 = 17$, ```while(true) ++i```, and the references below).
 
 ---------------
 ## About Me
