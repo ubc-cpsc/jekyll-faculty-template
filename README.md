@@ -21,7 +21,7 @@ post it online.  Experienced faculty understand that keeping the maintenance cos
 of these kinds of systems low is also of paramount importance.  Using this distributed, anarchic system makes both true.
 
 This template
-completely abstracts design from content.  You _can_ mess with ```.css``` should 
+completely abstracts design from content.  You _can_ mess with ```.css``` should
 you wish to.  You _can_ do custom javascript stuff.  You do not, however, need to, ever.  The only thing you need to do is generate real content and doing so is _easy_.
 
 # Generating Content
@@ -31,7 +31,7 @@ basically everything faculty want to a website: bibtex references, LaTeX math,
 highlighted code, etc.  The system supports blogging as well however this is
 not demonstrated in this template.
 
-# Turning the Template into Your Website 
+# Turning the Template into Your Website
 
 The files and directories you'll want to look at and edit are:
 
@@ -58,8 +58,8 @@ file (```./tasks/deploy```) too should be edited to reflect your setup._
 
 # Updating the style when and if the UBC look and feel changes
 
-Run the command ```bundle update jekyll-faculty-theme``` in your working 
-directory after UBC CS help administrators inform you that the theme 
+Run the command ```bundle update jekyll-faculty-theme``` in your working
+directory after UBC CS help administrators inform you that the theme
 has been updated.
 
 ---------------
@@ -85,15 +85,17 @@ anyway), and latex math.  These are now industry standard tools, for instance
 Yes, you have to install some stuff.
 
 Complete the following installation steps:
+
  - Install [ruby](https://www.ruby-lang.org/en/downloads/) (if necessary; many systems ship with Ruby installed)
  - Install [jeykll](https://jekyllrb.com/docs/) (steps one and two only)
- - fork this repository 
+ - fork this repository
  - clone your fork locally
  - ```cd``` into the downloaded repository and run ```bundle install``` to install [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar).  This will also install the UBC CS jekyll template.
 
 ## Getting up and running
 
-Edit the following files
+Edit the following files:
+
   - ```_config.yml```
   - ```tasks/watch```
   - ```tasks/deploy```
@@ -144,8 +146,7 @@ Also changing ```_config.yml``` to include
 and changing "default.html" to include (to "install mathjax")
 
 ```
-<script type="text/javascript"
-    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -171,5 +172,6 @@ and changing "default.html" to include (to "install mathjax")
 
 I also added (to "default.html") the following line for syntax Highlighting
 
-```        <link rel="stylesheet" type="text/css" href="{{ '/css/github.css' | relative_url }}">
+```
+<link rel="stylesheet" type="text/css" href="{{ '/css/github.css' | relative_url }}">
 ```
