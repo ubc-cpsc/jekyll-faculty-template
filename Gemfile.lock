@@ -1,6 +1,6 @@
 GIT
   remote: https://bitbucket.org/UBCCS/jekyll-faculty-theme.git
-  revision: 01e4ccebeeca2393ccadfaa11dd6c695ab223066
+  revision: 28b8d9fb79f2765c0cff51607728111ce9cc6d6c
   specs:
     jekyll-faculty-theme (0.1.1)
       jekyll (~> 3.8)
@@ -11,8 +11,8 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.6.0)
-      public_suffix (>= 2.0.2, < 4.0)
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
     bibtex-ruby (4.4.7)
       latex-decode (~> 0.0)
     citeproc (1.0.9)
@@ -73,13 +73,13 @@ GEM
     namae (1.0.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    public_suffix (3.1.1)
+    public_suffix (4.0.1)
     pygments.rb (1.2.1)
       multi_json (>= 1.0.0)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
-    rouge (3.8.0)
+    rouge (3.11.0)
     ruby_dep (1.5.0)
     safe_yaml (1.0.5)
     sass (3.7.4)
