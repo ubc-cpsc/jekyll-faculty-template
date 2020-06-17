@@ -39,8 +39,13 @@ The files and directories you'll want to look at and edit are:
  - ```headshot.jpg``` to change your picture
  - all the ```.md``` files to change the information content
  - all the ```.bib``` files in ```./bibilography``` to include your references
- - all the ```.pdf``` files in ```./assets/pdf``` to include your paper pdfs (optional)
+ - all the ```.pdf``` files in ```./papers``` to include your paper pdfs (optional)
+ - all the ```.png```, ```.jpg```, and ```.gif``` files in ```./papers``` to include your paper icons (optional)
 
+Note that the bibtex key is used to serve both the paper pdf and thumbnail icon and the icons
+may be ```.png```, ```.jpg```, or ```.gif``` files -- which format will be selected
+automatically in that order of precedence.  The default display scale of the icon is the actual 
+scale of the icon/thumbnail image on disk.
 
 ## Previewing and Deploying your website
 
@@ -88,8 +93,8 @@ Complete the following installation steps:
 
  - Install [ruby](https://www.ruby-lang.org/en/downloads/) (if necessary; many systems ship with Ruby installed)
  - Install [jeykll](https://jekyllrb.com/docs/) (steps one and two only)
- - fork this repository
- - clone your fork locally
+ - [fork](https://confluence.atlassian.com/bitbucket/forking-a-repository-221449527.html) this repository
+ - [clone](https://confluence.atlassian.com/bitbucket/clone-a-repository-223217891.html) your fork locally
  - ```cd``` into the downloaded repository and run ```bundle install``` to install [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar).  This will also install the UBC CS jekyll template.
 
 ## Getting up and running
