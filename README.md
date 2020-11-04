@@ -44,7 +44,7 @@ The files and directories you'll want to look at and edit are:
 
 Note that the bibtex key is used to serve both the paper pdf and thumbnail icon and the icons
 may be ```.png```, ```.jpg```, or ```.gif``` files -- which format will be selected
-automatically in that order of precedence.  The default display scale of the icon is the actual 
+automatically in that order of precedence.  The default display scale of the icon is the actual
 scale of the icon/thumbnail image on disk.
 
 ## Previewing and Deploying your website
@@ -111,6 +111,10 @@ The type ```tasks/watch``` and edit files locally, refreshing your web browser
 as required.
 
 -----------
+
+### Extending the `<head />`
+
+You can *add* custom CSS links to the `<head />` of your layouts by modifying the file `_includes/custom-head.html` in your source directory.
 
 ### Stuff you probably don't care about but might.
 
