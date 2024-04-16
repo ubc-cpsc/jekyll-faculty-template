@@ -4,7 +4,7 @@ layout: default
 
 ## Quickstart Guide
 
-Click [here](https://bitbucket.org/UBCCS/jekyll-faculty/src/master/) to return to the 
+Click [here](https://github.com/ubc-cpsc/jekyll-faculty-template) to return to the
 repository website that shows instructions on how to use
 and customize this UBC CS faculty and course static website generator yourself.  Browse
 the markdown files in particular (```.md``` file extension; start with ```index.md``` -- make sure you view the raw source).
