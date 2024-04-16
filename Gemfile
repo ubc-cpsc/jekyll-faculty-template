@@ -11,7 +11,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 3.8.5"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "jekyll-faculty-theme", :git => "https://bitbucket.org/UBCCS/jekyll-faculty-theme.git"
+gem "jekyll-faculty-theme", :git => "https://github.com/ubc-cpsc/jekyll-faculty-theme.git"
 gem "jekyll-scholar"
 
 gem "pygments.rb"
